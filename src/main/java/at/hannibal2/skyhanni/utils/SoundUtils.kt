@@ -23,6 +23,7 @@ object SoundUtils {
     private val errorSound by lazy { createSound("mob.endermen.portal", 0f) }
     val plingSound by lazy { createSound("note.pling", 1f) }
     val centuryActiveTimerAlert by lazy { createSound("skyhanni:centurytimer.active", 1f) }
+    val glorpSound by lazy { createSound("skyhanni:glorp", 1f) }
 
     fun SoundInstance.playSound() {
         DelayedRun.runOrNextTick {

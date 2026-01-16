@@ -490,4 +490,10 @@ class MiscConfig {
     @FeatureToggle
     @SearchTag("Colour Spell Spawn Specific")
     var fixColorParticles: Boolean = false
+
+    @Expose
+    @ConfigOption(name = "Glorp", desc = "Display glorp image and play sound when 'glorp' is mentioned in chat.")
+    @ConfigEditorBoolean
+    @FeatureToggle
+    var glorp: Boolean = true
 }

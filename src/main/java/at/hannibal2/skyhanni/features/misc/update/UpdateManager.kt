@@ -159,7 +159,7 @@ object UpdateManager {
     }
 
     private val context = UpdateContext(
-        CustomGithubReleaseUpdateSource("hannibal002", "SkyHanni"),
+        CustomGithubReleaseUpdateSource("glorpette", "SkyGlorp"),
         UpdateTarget.deleteAndSaveInTheSameFolder(UpdateManager::class.java),
         object : CurrentVersion {
             private val debug get() = SkyHanniMod.feature.dev.debug.alwaysOutdated
